@@ -1,0 +1,63 @@
+// Import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Importy 98.css from node
+@import "https://unpkg.com/98.css";
+
+.index-page-container{
+
+}
+
+.main-window{
+    // position centered vertically
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+
+    // position centered horizontally
+    left: 50%;
+    transform: translateX(-50%);
+
+    .window-body{
+
+        .window{
+
+            .window-tab-body{
+                padding: 5px;
+
+                .window-tab{
+                    background: white;
+                    height: 300px;
+
+                    // Inset border left and top
+                    border-left: 1px solid #000;
+                    border-top: 1px solid #000;
+
+                    // Outset border right and bottom
+                    border-right: 1px solid #fff;
+                    border-bottom: 1px solid #fff;
+
+                    ul{
+                        padding: 0px;
+                        margin: 0px;
+
+                        li{
+                            list-style-type: none;
+                            padding: 10px;
+                            border-bottom: 1px solid #000;
+
+                            a{
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.window{
+    padding: 5px;
+}
