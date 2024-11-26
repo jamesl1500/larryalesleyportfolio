@@ -37,6 +37,12 @@
                     border-right: 1px solid #fff;
                     border-bottom: 1px solid #fff;
 
+                    display: none;
+
+                    &.show{
+                        display: block;
+                    }
+
                     ul{
                         padding: 0px;
                         margin: 0px;
