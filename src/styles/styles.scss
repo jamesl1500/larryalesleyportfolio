@@ -8,6 +8,12 @@
 
 }
 
+.sub-page-container{
+    padding: 50px;
+
+    
+}
+
 .main-window{
     // position centered vertically
     position: absolute;
@@ -51,6 +57,8 @@
                             list-style-type: none;
                             padding: 10px;
                             border-bottom: 1px solid #000;
+
+                            cursor: pointer;
 
                             a{
                                 text-decoration: none;

@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 
-import '../app/scripts/scripts';
+import '../scripts/scripts';
 
 export default function Home() {
 
@@ -61,7 +61,7 @@ export default function Home() {
                 <div className="window-tab show" id="welcome-tab">
                   <ul>
                     <li className="window-tab-btn" data-target="design-tab"><a href="/design">Design</a></li>
-                    <li><a href="/art">Art</a></li>
+                    <li className="window-tab-btn" data-target="art-tab"><a href="/art">Art</a></li>
                     <li><a href="/music">Music</a></li>
                     <li><a href="">YouTube</a></li>
                     <li><a href="">Instagram</a></li>
@@ -73,12 +73,24 @@ export default function Home() {
                   <ul>
                     <li className="window-tab-btn" data-target="welcome-tab"><a href="">Back to main menu</a></li>
                     <li><a href="">UX/UI</a></li>
-                    <li><a href="">Branding</a></li>
+                    <li className="window-tab-btn" data-target="branding-tab"><a href="">Branding</a></li>
                     <li><a href="">Illustration</a></li>
                   </ul>
                 </div>
                 <div className="window-tab" id="art-tab">
-
+                  <ul>
+                    <li className="window-tab-btn" data-target="welcome-tab"><a href="">Back to main menu</a></li>
+                    <li><a href="">Okay</a></li>
+                    <li><a href="">More</a></li>
+                  </ul>
+                </div>
+                <div className="window-tab" id="branding-tab">
+                  <ul>
+                    <li className="window-tab-btn" data-target="design-tab"><a href="">Back to design menu</a></li>
+                    <li><a href="/branding/tric">Tri-C</a></li>
+                    <li><a href="/branding/tmobile">T-Mobile</a></li>
+                    <li><a href="/branding/2026detroitgrandprix">2026 Detroit Grand Prix</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
