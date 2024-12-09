@@ -72,7 +72,7 @@ export default function Home() {
                 <div className="window-tab" id="design-tab">
                   <ul>
                     <li className="window-tab-btn" data-target="welcome-tab"><a href="">Back to main menu</a></li>
-                    <li><a href="">UX/UI</a></li>
+                    <li className="window-tab-btn" data-target="uxui-tab"><a href="">UX/UI</a></li>
                     <li className="window-tab-btn" data-target="branding-tab"><a href="">Branding</a></li>
                     <li><a href="">Illustration</a></li>
                   </ul>
@@ -90,6 +90,14 @@ export default function Home() {
                     <li><a href="/branding/tric">Tri-C</a></li>
                     <li><a href="/branding/tmobile">T-Mobile</a></li>
                     <li><a href="/branding/2026detroitgrandprix">2026 Detroit Grand Prix</a></li>
+                  </ul>
+                </div>
+                <div className="window-tab" id="uxui-tab">
+                  <ul>
+                    <li className="window-tab-btn" data-target="design-tab"><a href="">Back to design menu</a></li>
+                    <li><a href="/uxui/eeg">Educational Empowerment Group</a></li>
+                    <li><a href="/uxui/cashnest">Cashnest</a></li>
+                    <li><a href="/uxui/salomonarexperience">Salomon A/R Experience</a></li>
                   </ul>
                 </div>
               </div>
