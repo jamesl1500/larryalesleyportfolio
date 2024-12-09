@@ -33,7 +33,7 @@ export default function RootLayout({
         <div className="website-main">
             {children}
         </div>
-        <div class="footer-main">
+        <div className="footer-main">
 
         </div>
       </body>
