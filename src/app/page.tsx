@@ -60,9 +60,9 @@ export default function Home() {
               <div className="window-tab-body">
                 <div className="window-tab show" id="welcome-tab">
                   <ul>
-                    <li className="window-tab-btn" data-target="design-tab"><a href="/design">Design</a></li>
-                    <li className="window-tab-btn" data-target="art-tab"><a href="/art">Art</a></li>
-                    <li><a href="/music">Music</a></li>
+                    <li className="window-tab-btn" data-target="design-tab"><a href="#">Design</a></li>
+                    <li className="window-tab-btn" data-target="art-tab"><a href="#">Art</a></li>
+                    <li><a href="#">Music</a></li>
                     <li><a href="">YouTube</a></li>
                     <li><a href="">Instagram</a></li>
                     <li><a href="">Saint Pierre</a></li>
