@@ -62,11 +62,11 @@ export default function Home() {
                   <ul>
                     <li className="window-tab-btn" data-target="design-tab"><a href="#">Design</a></li>
                     <li className="window-tab-btn" data-target="art-tab"><a href="#">Art</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="">YouTube</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Saint Pierre</a></li>
-                    <li><a href="">IRE Online</a></li>
+                    {/** <li><a href="#">Music</a></li> */}
+                    <li><a href="https://www.youtube.com/@larryalesley">YouTube</a></li>
+                    <li><a href="https://www.instagram.com/larryalesley">Instagram</a></li>
+                    <li><a href="https://saintpierre.world">Saint Pierre</a></li>
+                    <li><a href="https://ireonline.com">IRE Online</a></li>
                   </ul>
                 </div>
                 <div className="window-tab" id="design-tab">
