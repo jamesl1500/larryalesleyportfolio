@@ -3,11 +3,33 @@
 import React, { useEffect } from 'react';
 
 export default function Home() {
-    // Gather all images from the images folder
-    const images = require.context('../../illustrations', false, /\.(png|jpe?g|svg)$/);
-
-    // Create an array of image paths
-    const imagePaths = images.keys().map(images);
+    // Gather all images from the images folder without using require
+    const imagePaths = [
+        require('../../illustrations/img1.png'),
+        require('../../illustrations/img2.jpg'),
+        require('../../illustrations/img3.jpg'),
+        require('../../illustrations/img4.jpg'),
+        require('../../illustrations/img5.png'),
+        require('../../illustrations/img6.png'),
+        require('../../illustrations/img7.jpg'),
+        require('../../illustrations/img8.png'),
+        require('../../illustrations/img9.png'),
+        require('../../illustrations/img10.jpg'),
+        require('../../illustrations/img11.jpg'),
+        require('../../illustrations/img12.jpg'),
+        require('../../illustrations/img13.png'),
+        require('../../illustrations/img14.png'),
+        require('../../illustrations/img15.png'),
+        require('../../illustrations/img16.png'),
+        require('../../illustrations/img17.png'),
+        require('../../illustrations/img18.png'),
+        require('../../illustrations/img19.png'),
+        require('../../illustrations/img20.png'),
+        require('../../illustrations/img21.png'),
+        require('../../illustrations/img22.png'),
+        require('../../illustrations/img23.png'),
+        require('../../illustrations/img24.jpg'),
+    ];
 
   return (
     <div className="container sub-page-container">
