@@ -60,8 +60,8 @@ export default function Home() {
               <div className="window-tab-body">
                 <div className="window-tab show" id="welcome-tab">
                   <ul>
-                    <li className="window-tab-btn" data-target="design-tab"><a href="#">Design</a></li>
-                    <li className="window-tab-btn" data-target="art-tab"><a href="#">Art</a></li>
+                    <li className="window-tab-btn" data-target="design-tab">Design</li>
+                    <li className="window-tab-btn" data-target="art-tab">Art</li>
                     {/** <li><a href="#">Music</a></li> */}
                     <li><a href="https://www.youtube.com/@larryalesley">YouTube</a></li>
                     <li><a href="https://www.instagram.com/larryalesley">Instagram</a></li>
@@ -74,14 +74,14 @@ export default function Home() {
                     <li className="window-tab-btn" data-target="welcome-tab"><a href="">Back to main menu</a></li>
                     <li className="window-tab-btn" data-target="uxui-tab"><a href="">UX/UI</a></li>
                     <li className="window-tab-btn" data-target="branding-tab"><a href="">Branding</a></li>
-                    <li><a href="">Illustration</a></li>
+                    <li><a href="/illustrations">Illustration</a></li>
                   </ul>
                 </div>
                 <div className="window-tab" id="art-tab">
                   <ul>
                     <li className="window-tab-btn" data-target="welcome-tab"><a href="">Back to main menu</a></li>
-                    <li><a href="">Okay</a></li>
-                    <li><a href="">More</a></li>
+                    <li><a href="/okay">Okay</a></li>
+                    <li><a href="/more">More</a></li>
                   </ul>
                 </div>
                 <div className="window-tab" id="branding-tab">

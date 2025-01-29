@@ -75,6 +75,15 @@
         padding: 0px;
         margin-bottom: 30px;
 
+        .img-hold{
+            text-align: center;
+
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
         .container{
 
             h2{
