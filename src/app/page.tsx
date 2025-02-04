@@ -72,8 +72,8 @@ export default function Home() {
                 <div className="window-tab" id="design-tab">
                   <ul>
                     <li className="window-tab-btn" data-target="welcome-tab"><a href="">Back to main menu</a></li>
-                    <li className="window-tab-btn" data-target="uxui-tab"><a href="">UX/UI</a></li>
-                    <li className="window-tab-btn" data-target="branding-tab"><a href="">Branding</a></li>
+                    <li className="window-tab-btn" data-target="uxui-tab">UX/UI</li>
+                    <li className="window-tab-btn" data-target="branding-tab">Branding</li>
                     <li><a href="/illustrations">Illustration</a></li>
                   </ul>
                 </div>
